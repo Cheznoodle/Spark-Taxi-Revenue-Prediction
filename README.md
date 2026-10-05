@@ -17,8 +17,6 @@ The project showcases practical applications of distributed computing, feature e
 
 - **Source**: [NYC Yellow Taxi Trip Records (January 2024)](https://www.kaggle.com/datasets/shayanshahid997/yellow-taxi-trip-record-of-january-2024)
 - **Records**: ~2.8 million taxi trips
-- **Format**: CSV
-- **Size**: ~310 MB
 - **Time Period**: January 2024
 
 ### Key Features
