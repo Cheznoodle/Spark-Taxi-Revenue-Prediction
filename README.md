@@ -11,8 +11,6 @@ This project demonstrates end-to-end big data analytics on real-world taxi trip 
 
 The project showcases practical applications of distributed computing, feature engineering, and ensemble machine learning techniques on datasets too large for traditional single-machine approaches.
 
----
-
 ## Dataset
 
 - **Source**: [NYC Yellow Taxi Trip Records (January 2024)](https://www.kaggle.com/datasets/shayanshahid997/yellow-taxi-trip-record-of-january-2024)
@@ -24,8 +22,6 @@ The project showcases practical applications of distributed computing, feature e
 - Passenger count, trip distance
 - Fare, tip, tax, surcharge amounts
 - Payment method and rate code
-
----
 
 ## Methodology
 
@@ -70,8 +66,6 @@ Derived features include:
 - Efficiency model: Tuned forest size (10, 30, 50) and depth (5, 7, 10)
 - Metrics: RMSE, Mean Absolute Error (MAE), R² score
 
----
-
 ## Results
 
 ### Final Model Performance
@@ -90,8 +84,6 @@ Derived features include:
 - All models explain 85-89% of variance, demonstrating predictive power across conditions
 - Feature engineering (derived speed, time-of-day, weekend indicator) significantly improved model accuracy
 
----
-
 ## Tools & Technologies
 
 - **Apache Spark**: Distributed data processing and ML (SparkSQL, Spark DataFrames, SparkML)
@@ -100,8 +92,6 @@ Derived features include:
 - **Pandas**: Data manipulation and results analysis
 - **SparkML**: Regression models (Linear Regression, Random Forest)
 - **MLflow** (implicit): Model evaluation and comparison
-
----
 
 ## Project Structure
 
@@ -114,8 +104,6 @@ Derived features include:
 
 **Dataset:**
 - `nyc_tlc_yellow_2024_01.csv` — Download from [Kaggle](https://www.kaggle.com/datasets/shayanshahid997/yellow-taxi-trip-record-of-january-2024) (not included due to file size)
-
----
 
 ## Setup & Execution
 
@@ -160,8 +148,6 @@ Derived features include:
 | 5 | Machine Learning — Efficiency Model |
 | 6 | Hyperparameter Tuning & Evaluation |
 
----
-
 ## Key Insights & Business Value
 
 1. **Predictability**: Trip revenue is highly predictable (R² > 0.88) using basic trip features alone—useful for demand forecasting and pricing
@@ -169,8 +155,6 @@ Derived features include:
 3. **Efficiency Modeling**: The efficiency model identifies high-value trips (revenue per minute), enabling intelligent dispatch and trip acceptance
 4. **Scalability**: Spark-based pipeline handles millions of records efficiently; easily extends to full-year or multi-year datasets
 5. **Real-time Applications**: Models could be deployed for real-time fare estimates and operational recommendations
-
----
 
 ## Additional Resources
 
