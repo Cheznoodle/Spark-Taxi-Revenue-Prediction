@@ -2,8 +2,6 @@
 
 A comprehensive machine learning and big data analysis of NYC Yellow Taxi trip records from January 2024. This project applies Apache Spark and Databricks to clean, analyse, and model large-scale taxi trip data (~2.8 million records) for revenue prediction and operational efficiency optimisation.
 
----
-
 ## Project Overview
 
 This project demonstrates end-to-end big data analytics on real-world taxi trip data, covering data ingestion through predictive modelling. The analysis focuses on two key business problems:
