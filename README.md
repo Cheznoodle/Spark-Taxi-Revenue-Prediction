@@ -15,8 +15,10 @@ The project showcases practical applications of distributed computing, feature e
 
 ## Dataset
 
-- **Source**: [NYC Yellow Taxi Trip Records (January 2024)](https://www.kaggle.com/datasets/ibrahimqasimi/nyc-yellow-taxi-trip-records-january-2024)
+- **Source**: [NYC Yellow Taxi Trip Records (January 2024)](https://www.kaggle.com/datasets/shayanshahid997/yellow-taxi-trip-record-of-january-2024)
 - **Records**: ~2.8 million taxi trips
+- **Format**: CSV
+- **Size**: ~310 MB
 - **Time Period**: January 2024
 
 ### Key Features
@@ -108,12 +110,12 @@ Derived features include:
 **Repository Contents:**
 ```
 ├── NYC_Yellow_Taxi_Trip_Records.ipynb    # Main Databricks notebook
-├── Report.pdf                            
-└── README.md                             
+├── Report.pdf                            # Detailed project report
+└── README.md                             # This file
 ```
 
 **Dataset:**
-- `nyc_tlc_yellow_2024_01.csv` — Download from [Kaggle](https://www.kaggle.com/datasets/ibrahimqasimi/nyc-yellow-taxi-trip-records-january-2024) (not included due to file size)
+- `nyc_tlc_yellow_2024_01.csv` — Download from [Kaggle](https://www.kaggle.com/datasets/shayanshahid997/yellow-taxi-trip-record-of-january-2024) (not included due to file size)
 
 ---
 
@@ -122,11 +124,11 @@ Derived features include:
 ### Prerequisites
 
 - Databricks Community Edition account (free at [community.cloud.databricks.com](https://community.cloud.databricks.com))
-- Dataset downloaded from [Kaggle](https://www.kaggle.com/datasets/ibrahimqasimi/nyc-yellow-taxi-trip-records-january-2024)
+- Dataset downloaded from [Kaggle](https://www.kaggle.com/datasets/shayanshahid997/yellow-taxi-trip-record-of-january-2024)
 - No local installation required; runs entirely in the cloud
 
 ### Step 1: Download Dataset
-1. Go to [NYC Yellow Taxi Trip Records (January 2024) on Kaggle](https://www.kaggle.com/datasets/ibrahimqasimi/nyc-yellow-taxi-trip-records-january-2024)
+1. Go to [NYC Yellow Taxi Trip Records (January 2024) on Kaggle](https://www.kaggle.com/datasets/shayanshahid997/yellow-taxi-trip-record-of-january-2024)
 2. Sign in to your Kaggle account (or create one)
 3. Download `nyc_tlc_yellow_2024_01.csv`
 
