@@ -17,8 +17,6 @@ The project showcases practical applications of distributed computing, feature e
 
 - **Source**: [NYC Yellow Taxi Trip Records (January 2024)](https://www.kaggle.com/datasets/ibrahimqasimi/nyc-yellow-taxi-trip-records-january-2024)
 - **Records**: ~2.8 million taxi trips
-- **Format**: CSV
-- **Size**: ~310 MB
 - **Time Period**: January 2024
 
 ### Key Features
@@ -110,8 +108,8 @@ Derived features include:
 **Repository Contents:**
 ```
 ├── NYC_Yellow_Taxi_Trip_Records.ipynb    # Main Databricks notebook
-├── Report.pdf                            # Detailed project report
-└── README.md                             # This file
+├── Report.pdf                            
+└── README.md                             
 ```
 
 **Dataset:**
