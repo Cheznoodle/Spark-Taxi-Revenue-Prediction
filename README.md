@@ -13,7 +13,7 @@ The project showcases practical applications of distributed computing, feature e
 
 ## Dataset
 
-- **Source**: [NYC Yellow Taxi Trip Records (January 2024)](https://www.kaggle.com/datasets/shayanshahid997/yellow-taxi-trip-record-of-january-2024) (not included due to file size)
+- **Source**: [NYC Yellow Taxi Trip Records (January 2024)](https://www.kaggle.com/datasets/shayanshahid997/yellow-taxi-trip-record-of-january-2024)
 - **Records**: ~2.8 million taxi trips
 - **Time Period**: January 2024
 
@@ -101,6 +101,9 @@ Derived features include:
 ├── Report.pdf                            # Detailed project report
 └── README.md                             # This file
 ```
+
+**Dataset:**
+- `nyc_tlc_yellow_2024_01.csv` — Download from [Kaggle](https://www.kaggle.com/datasets/shayanshahid997/yellow-taxi-trip-record-of-january-2024) (not included due to file size)
 
 ## Setup & Execution
 
